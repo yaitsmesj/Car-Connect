@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/yaitsmesj/client-service/api"
-	"github.com/yaitsmesj/client-service/messanger"
+	"github.com/yaitsmesj/Car-Connect/client-service/api"
+	"github.com/yaitsmesj/Car-Connect/client-service/messanger"
 )
 
 func main() {

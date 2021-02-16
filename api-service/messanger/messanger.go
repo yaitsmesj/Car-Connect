@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/streadway/amqp"
-	"github.com/yaitsmesj/api-service/config"
-	"github.com/yaitsmesj/api-service/data"
-	"github.com/yaitsmesj/api-service/logger"
+	"github.com/yaitsmesj/Car-Connect/api-service/config"
+	"github.com/yaitsmesj/Car-Connect/api-service/data"
+	"github.com/yaitsmesj/Car-Connect/api-service/logger"
 )
 
 var ch *amqp.Channel

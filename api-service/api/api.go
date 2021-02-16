@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/yaitsmesj/api-service/data"
-	"github.com/yaitsmesj/api-service/messanger"
+	"github.com/yaitsmesj/Car-Connect/api-service/data"
+	"github.com/yaitsmesj/Car-Connect/api-service/messanger"
 )
 
 func lidEvent(w http.ResponseWriter, req *http.Request) {

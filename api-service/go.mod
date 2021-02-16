@@ -1,4 +1,4 @@
-module github.com/yaitsmesj/api-service
+module github.com/yaitsmesj/Car-Connect/api-service
 
 go 1.15
 

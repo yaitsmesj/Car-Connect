@@ -3,9 +3,9 @@ package messanger
 import (
 	"fmt"
 
-	"github.com/yaitsmesj/client-service/calculation"
-	"github.com/yaitsmesj/client-service/config"
-	"github.com/yaitsmesj/client-service/logger"
+	"github.com/yaitsmesj/Car-Connect/client-service/calculation"
+	"github.com/yaitsmesj/Car-Connect/client-service/config"
+	"github.com/yaitsmesj/Car-Connect/client-service/logger"
 
 	"github.com/streadway/amqp"
 )

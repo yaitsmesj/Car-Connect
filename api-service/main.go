@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/yaitsmesj/api-service/api"
-	"github.com/yaitsmesj/api-service/messanger"
-	"github.com/yaitsmesj/api-service/scheduler"
+	"github.com/yaitsmesj/Car-Connect/api-service/api"
+	"github.com/yaitsmesj/Car-Connect/api-service/messanger"
+	"github.com/yaitsmesj/Car-Connect/api-service/scheduler"
 )
 
 func main() {

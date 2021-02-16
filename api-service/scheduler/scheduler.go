@@ -3,7 +3,7 @@ package scheduler
 import (
 	"time"
 
-	"github.com/yaitsmesj/api-service/messanger"
+	"github.com/yaitsmesj/Car-Connect/api-service/messanger"
 )
 
 // Schedule starts 2 Minute Ticker for Sending Event

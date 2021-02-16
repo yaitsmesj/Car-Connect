@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/yaitsmesj/api-service/logger"
+	"github.com/yaitsmesj/Car-Connect/api-service/logger"
 )
 
 type Config struct {
