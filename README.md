@@ -17,10 +17,12 @@ It fetches Today's patrol price for current city and Calculate Patrol Cost based
 API to fetch patrol price is mocked and is present inside client-service itself.
 
 ## How to run
-Requirement - Go
+Requirement - Docker
 
-Run both services separately with -
-go run main.go
+Both services are Containerized. Build and deploy services using docker-compose.yml file.
 
-Call API
-  Example - localhost:8090/event?fuellid=false&city=bangalore
+Run docker-compose file using the following command in project root directory - 
+  docker-compose up
+
+API can be called like this - 
+  Call API Example - localhost:8090/event?fuellid=false&city=bangalore

@@ -1,0 +1,8 @@
+version: "3"
+services:
+  api-service:
+    build: ./api-service
+    ports:
+      - 8090:8090
+  client-service:
+    build: ./client-service
