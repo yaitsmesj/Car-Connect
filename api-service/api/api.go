@@ -4,7 +4,6 @@ import (
 	"log"
 	"net/http"
 	"strconv"
-
 	"github.com/yaitsmesj/Car-Connect/api-service/data"
 	"github.com/yaitsmesj/Car-Connect/api-service/messanger"
 )
@@ -13,7 +12,7 @@ func lidEvent(w http.ResponseWriter, req *http.Request) {
 	params := req.URL.Query()
 	fuellid, ok := params["fuellid"]
 	if !ok || len(fuellid[0]) < 1 {
-		http.Error(w, "Missing fuellid Param", 400)
+		http.Error(w, "Missing fuel-lid Param", 400)
 		return
 	}
 
@@ -24,9 +23,10 @@ func lidEvent(w http.ResponseWriter, req *http.Request) {
 	}
 	lid, err := strconv.ParseBool(fuellid[0])
 	if err != nil {
-		http.Error(w, "Fuellid value should be true or false", 400)
+		http.Error(w, "Fuel-lid value should be true or false", 400)
 		return
 	}
+
 	// Update current state
 	data.Fuellid = lid
 	data.City = city[0]
